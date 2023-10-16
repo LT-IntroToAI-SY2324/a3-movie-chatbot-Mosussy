@@ -321,7 +321,8 @@ if __name__ == "__main__":
     assert isinstance(title_by_director(["steven spielberg"]), list), "title_by_director not returning a list"
     assert isinstance(actors_by_title(["jaws"]), list), "actors_by_title not returning a list"
     assert isinstance(year_by_title(["jaws"]), list), "year_by_title not returning a list"
-    assert isinstance(title_by_actor(["orson welles"]), list), "title_by_actor not returning a list"
+    assert isinstance(title_by_actor(["orson welles"]), list), "title_by_actor not returning a list"  
+    
     assert isinstance(movie_by_actor(["Oscar Isaac"]),list), "movie_by_actor not returning a list"
     
     assert sorted(title_by_year(["1974"])) == sorted(

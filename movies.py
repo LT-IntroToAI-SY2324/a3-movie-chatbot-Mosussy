@@ -434,5 +434,15 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "delroy lindo",
             "spike lee",
         ],
+    ),
+    (
+        "Spider-Man Across The Spider Verse",
+        "Joaquim Dos Santos",
+        2022,
+        [
+            "Oscar Isaac",
+            "Shameik Moore",
+            "Hailee Steinfield",
+        ]
     )
 ]
